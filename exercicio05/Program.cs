@@ -31,7 +31,7 @@ namespace Exercicio05
             $"(- INSS (11%) : {string.Format("{0:0.00}", descontoInss)}))\n" +
                 $"(-) descontoIR ({percentualDescontoIr * 100}%) : {string.Format("{0:0.00}", descontoIR)}\n" +
                 $"fgts (8%) : {string.Format("{0:0.00}", fgts)}\n" +
-            $"salLi {string.Format("{0:0.00}", salLi)}");
+            $"salLi {string.Format("{0:0.00}", salLi)}");   
 
         }
     }
